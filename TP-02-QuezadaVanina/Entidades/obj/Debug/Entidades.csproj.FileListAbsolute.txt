@@ -13,13 +13,6 @@ D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\Entidades\obj\Debug\Entidades.d
 D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\Entidades\obj\Debug\Entidades.pdb
 C:\Users\Vanina\Downloads\TP-02-Cascara\TP-02\Entidades\bin\Debug\Entidades.dll
 C:\Users\Vanina\Downloads\TP-02-Cascara\TP-02\Entidades\bin\Debug\Entidades.pdb
-C:\Users\Vanina\Downloads\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
 C:\Users\Vanina\Downloads\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Vanina\Downloads\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\Vanina\Downloads\TP-02-Cascara\TP-02\Entidades\obj\Debug\Entidades.pdb
-C:\Users\Vanina\Documents\UTN\2019\Lab2\TP2\TP-02\Entidades\bin\Debug\Entidades.dll
-C:\Users\Vanina\Documents\UTN\2019\Lab2\TP2\TP-02\Entidades\bin\Debug\Entidades.pdb
-C:\Users\Vanina\Documents\UTN\2019\Lab2\TP2\TP-02\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
-C:\Users\Vanina\Documents\UTN\2019\Lab2\TP2\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
-C:\Users\Vanina\Documents\UTN\2019\Lab2\TP2\TP-02\Entidades\obj\Debug\Entidades.dll
-C:\Users\Vanina\Documents\UTN\2019\Lab2\TP2\TP-02\Entidades\obj\Debug\Entidades.pdb

@@ -8,8 +8,8 @@ namespace Entidades_2018
 {
     public class Dulce : Producto
     {
-        public Dulce(EMarca marca, string patente, ConsoleColor color):base(patente, marca, color)
-        {}
+        public Dulce(EMarca marca, string patente, ConsoleColor color) : base(patente, marca, color)
+        { }
 
         /// <summary>
         /// Los dulces tienen 80 calorías
@@ -35,4 +35,5 @@ namespace Entidades_2018
             return sb.ToString();
         }
     }
+
 }

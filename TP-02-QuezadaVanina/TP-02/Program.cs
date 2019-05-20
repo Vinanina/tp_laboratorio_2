@@ -16,10 +16,9 @@ namespace TP_02_2018
             Console.SetWindowSize(Console.LargestWindowWidth / 2, Console.LargestWindowHeight - 2);
 
             // Vanina Quezada
+ 
 
-
-             Changuito changoDeCompras = new Changuito(6);
-           
+            Changuito changoDeCompras = new Changuito(6);
 
             Dulce c1 = new Dulce(Producto.EMarca.Sancor, "ASD012", ConsoleColor.Black);
             Dulce c2 = new Dulce(Producto.EMarca.Ilolay, "ASD913", ConsoleColor.Red);

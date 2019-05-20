@@ -11,7 +11,7 @@ namespace Entidades_2018
     /// </summary>
     public abstract class Producto
     {
-       public enum EMarca
+        public enum EMarca
         {
             Serenisima, Campagnola, Arcor, Ilolay, Sancor, Pepsico
         }
@@ -23,7 +23,7 @@ namespace Entidades_2018
         /// <summary>
         /// ReadOnly: Retornará la cantidad de ruedas del vehículo
         /// </summary>
-       protected abstract short CantidadCalorias { get; }
+        protected abstract short CantidadCalorias { get; }
 
         public Producto(string codigo, EMarca marca, ConsoleColor color)
         {

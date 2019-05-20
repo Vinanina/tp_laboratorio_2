@@ -23,7 +23,7 @@ namespace Entidades_2018
         {
             this.productos = new List<Producto>();
         }
-        public Changuito(int espacioDisponible):this()
+        public Changuito(int espacioDisponible) : this()
         {
             this.espacioDisponible = espacioDisponible;
         }
@@ -49,7 +49,7 @@ namespace Entidades_2018
         /// <param name="c">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public static  string Mostrar(Changuito c, ETipo tipo)
+        public static string Mostrar(Changuito c, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
 
@@ -70,7 +70,7 @@ namespace Entidades_2018
                         {
                             sb.AppendLine(v.Mostrar());
                         }
-                        
+
                         break;
                     case ETipo.Leche:
                         if (v is Leche)
@@ -102,10 +102,11 @@ namespace Entidades_2018
                 if (v == p)
                     return c;
             }
-            if (c.productos.Count < c.espacioDisponible) {
+            if (c.productos.Count < c.espacioDisponible)
+            {
                 c.productos.Add(p);
-            }    
-            
+            }
+
             return c;
         }
         /// <summary>
@@ -123,7 +124,8 @@ namespace Entidades_2018
                     break;
                 }
             }
-            if (c.productos.Any()) {
+            if (c.productos.Any())
+            {
 
                 c.productos.Remove(p);
             }

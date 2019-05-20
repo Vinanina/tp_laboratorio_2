@@ -25,9 +25,9 @@ namespace Entidades_2018
             this.tipo = tipo;
         }
         public Leche(EMarca marca, string codigo, ConsoleColor color)
-            :this( marca, codigo, color, ETipo.Entera)
+            : this(marca, codigo, color, ETipo.Entera)
         {
-            
+
         }
 
 
@@ -48,7 +48,8 @@ namespace Entidades_2018
 
             sb.AppendLine("LECHE");
             sb.AppendLine(base.Mostrar());
-            sb.AppendFormat("CALORIAS : {0}\n", this.CantidadCalorias);
+            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
+           // sb.AppendLine("");
             sb.AppendLine("TIPO : " + this.tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
