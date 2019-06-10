@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quezada.Vanina.2A.TP3", "ConsoleApp1\Quezada.Vanina.2A.TP3.csproj", "{565829D9-F66C-415B-B997-C5FA26A2D0F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Unitarios", "Test Unitarios\Test Unitarios.csproj", "{6A85526E-A84F-43AD-BFEA-DA70BACB6D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{565829D9-F66C-415B-B997-C5FA26A2D0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565829D9-F66C-415B-B997-C5FA26A2D0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565829D9-F66C-415B-B997-C5FA26A2D0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A85526E-A84F-43AD-BFEA-DA70BACB6D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A85526E-A84F-43AD-BFEA-DA70BACB6D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A85526E-A84F-43AD-BFEA-DA70BACB6D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A85526E-A84F-43AD-BFEA-DA70BACB6D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
