@@ -87,7 +87,7 @@
             // btnConvertirADecimal
             // 
             this.btnConvertirADecimal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F);
-            this.btnConvertirADecimal.Location = new System.Drawing.Point(385, 332);
+            this.btnConvertirADecimal.Location = new System.Drawing.Point(374, 332);
             this.btnConvertirADecimal.Name = "btnConvertirADecimal";
             this.btnConvertirADecimal.Size = new System.Drawing.Size(289, 65);
             this.btnConvertirADecimal.TabIndex = 7;
@@ -97,41 +97,42 @@
             // 
             // txtNumero1
             // 
-            this.txtNumero1.Location = new System.Drawing.Point(54, 93);
+            this.txtNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.txtNumero1.Location = new System.Drawing.Point(96, 122);
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(173, 22);
+            this.txtNumero1.Size = new System.Drawing.Size(173, 64);
             this.txtNumero1.TabIndex = 0;
             // 
             // txtNumero2
             // 
-            this.txtNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.8F);
-            this.txtNumero2.Location = new System.Drawing.Point(446, 93);
+            this.txtNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.txtNumero2.Location = new System.Drawing.Point(490, 122);
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(184, 32);
+            this.txtNumero2.Size = new System.Drawing.Size(184, 64);
             this.txtNumero2.TabIndex = 2;
             // 
             // cmbOperador
             // 
-            this.cmbOperador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Items.AddRange(new object[] {
             "/",
             "*",
             "-",
             "+"});
-            this.cmbOperador.Location = new System.Drawing.Point(269, 93);
+            this.cmbOperador.Location = new System.Drawing.Point(346, 122);
             this.cmbOperador.Name = "cmbOperador";
-            this.cmbOperador.Size = new System.Drawing.Size(74, 24);
+            this.cmbOperador.Size = new System.Drawing.Size(74, 66);
             this.cmbOperador.TabIndex = 1;
             // 
             // txtResultado
             // 
             this.txtResultado.AutoSize = true;
-            this.txtResultado.Location = new System.Drawing.Point(611, 30);
+            this.txtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.txtResultado.Location = new System.Drawing.Point(420, 23);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(46, 17);
+            this.txtResultado.Size = new System.Drawing.Size(0, 58);
             this.txtResultado.TabIndex = 8;
-            this.txtResultado.Text = "label1";
             // 
             // FormCalculadora
             // 
@@ -151,6 +152,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormCalculadora";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Vanina Quezada del curso 2°A";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

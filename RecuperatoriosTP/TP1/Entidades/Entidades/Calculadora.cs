@@ -9,9 +9,10 @@ namespace Entidades
     public class Calculadora
     {
 
-
+        #region Metodos
         public double Operar(Numero num1, Numero num2, string operador)
         {
+            // Se realiza la operacion segun el operador seleccionado
             double resultado = 0;
 
             switch (Calculadora.ValidarOperador(operador))
@@ -38,6 +39,7 @@ namespace Entidades
 
         private static string ValidarOperador(string operador)
         {
+            // Se validan Operadores 
 
             if (operador == "+" || operador == "-" || operador == "*" || operador == "/")
             {
@@ -45,5 +47,6 @@ namespace Entidades
             }
             else { return "+"; }
         }
+        #endregion
     }
 }

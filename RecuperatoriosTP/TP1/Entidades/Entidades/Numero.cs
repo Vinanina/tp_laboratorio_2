@@ -10,6 +10,7 @@ namespace Entidades
     {
         private double numero;
 
+        #region Constructores
         private string SetNumero { set { this.numero = validarNumero(value); } }
 
         public Numero() : this(0)
@@ -22,7 +23,8 @@ namespace Entidades
         {
             this.SetNumero = numero;
         }
-
+        #endregion
+        #region Metodos
         private double validarNumero(string strNumero)
         {
             double salida = 0;
@@ -35,9 +37,12 @@ namespace Entidades
 
 
         public string DecimalBinario(string numero){
-            int num;
-            if (Int32.TryParse(numero,out num)) {
-                return num.ToString();
+            double num;
+            // se trata de parsiar el numero a double, si se puede se llama a DecimalBinario(double numero)
+            if (Double.TryParse(numero,out num)) {
+
+                return DecimalBinario(num);
+
             }
             else
             {
@@ -46,13 +51,17 @@ namespace Entidades
                
         }
         public string DecimalBinario(double numero){
-            return this.DecimalBinario(numero.ToString());
+            //convierte double a int
+           return Convert.ToInt32(numero).ToString();
+
         }
         public string BinarioDecimal(string binario){
-            double num;
-            if (Double.TryParse(binario, out num))
+            //Se trata de parsear el string a un int si se pudo se convierte el int a double
+            int num;
+            if (Int32.TryParse(binario, out num))
             {
-                return num.ToString();
+
+                return Convert.ToDouble(num).ToString("0.00");
             }
             else
             {
@@ -61,7 +70,8 @@ namespace Entidades
            
 
         }
-
+        #endregion
+        #region Sobrecargas
         public static double operator +(Numero n1, Numero n2) {
             return n1.numero + n2.numero;
         }
@@ -72,7 +82,7 @@ namespace Entidades
             return n1.numero * n2.numero;
         }
         public static double operator /(Numero n1, Numero n2) {
-
+            // Si se divide por 0 se devuelve double.MinValue
             if (n2.numero == 0)
             {
                 return double.MinValue;
@@ -82,6 +92,6 @@ namespace Entidades
                 return n1.numero / n2.numero;
             }
         }
-
+#endregion
     }
 }
