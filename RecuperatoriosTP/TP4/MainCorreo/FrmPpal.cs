@@ -100,5 +100,6 @@ namespace MainCorreo
         {
             this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
         }
+
     }
 }

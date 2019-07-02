@@ -18,3 +18,23 @@ C:\Users\Vanina\Documents\GitHub\tp_laboratorio_2\Quezada.Vanina.2A.TP4\Test Uni
 C:\Users\Vanina\Documents\GitHub\tp_laboratorio_2\Quezada.Vanina.2A.TP4\Test Unitarios2\obj\Debug\Test Unitarios.csproj.CopyComplete
 C:\Users\Vanina\Documents\GitHub\tp_laboratorio_2\Quezada.Vanina.2A.TP4\Test Unitarios2\obj\Debug\Test Unitarios2.dll
 C:\Users\Vanina\Documents\GitHub\tp_laboratorio_2\Quezada.Vanina.2A.TP4\Test Unitarios2\obj\Debug\Test Unitarios2.pdb
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Test Unitarios2.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Test Unitarios2.pdb
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Entidades.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Entidades.pdb
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Entidades.dll.config
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\obj\Debug\Test Unitarios.csprojAssemblyReference.cache
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\obj\Debug\Test Unitarios.csproj.CoreCompileInputs.cache
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\obj\Debug\Test Unitarios.csproj.CopyComplete
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\obj\Debug\Test Unitarios2.dll
+C:\Users\Vanina\Documents\GitHub\tp_laboratorio2\RecuperatoriosTP\TP4\Test Unitarios2\obj\Debug\Test Unitarios2.pdb

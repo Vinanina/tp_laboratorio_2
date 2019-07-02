@@ -96,9 +96,18 @@ namespace MainCorreo
 
         }
 
+
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+
         private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
         }
+    
     }
 }

@@ -45,11 +45,10 @@
             this.lblDireccion = new System.Windows.Forms.Label();
             this.lblTrackingId = new System.Windows.Forms.Label();
             this.rtbMostrar = new System.Windows.Forms.RichTextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mostrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmsListas.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAgregar
@@ -75,8 +74,10 @@
             // cmsListas
             // 
             this.cmsListas.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.cmsListas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mostrarToolStripMenuItem});
             this.cmsListas.Name = "cmsListas";
-            this.cmsListas.Size = new System.Drawing.Size(61, 4);
+            this.cmsListas.Size = new System.Drawing.Size(211, 56);
             // 
             // groupBox1
             // 
@@ -86,7 +87,6 @@
             this.groupBox1.Controls.Add(this.lblEstadoEntregado);
             this.groupBox1.Controls.Add(this.lblEstadoIngresado);
             this.groupBox1.Controls.Add(this.lblEstadoEnViaje);
-            this.groupBox1.Controls.Add(this.menuStrip1);
             this.groupBox1.Location = new System.Drawing.Point(9, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(886, 342);
@@ -114,6 +114,7 @@
             // 
             // lstEstadoEntregado
             // 
+            this.lstEstadoEntregado.ContextMenuStrip = this.cmsListas;
             this.lstEstadoEntregado.FormattingEnabled = true;
             this.lstEstadoEntregado.ItemHeight = 16;
             this.lstEstadoEntregado.Location = new System.Drawing.Point(598, 56);
@@ -205,21 +206,12 @@
             this.rtbMostrar.TabIndex = 6;
             this.rtbMostrar.Text = "";
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mostrarToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(3, 18);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(880, 24);
-            this.menuStrip1.TabIndex = 12;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
             // mostrarToolStripMenuItem
             // 
             this.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem";
-            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(12, 20);
+            this.mostrarToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.mostrarToolStripMenuItem.Text = "Mostrar";
+            this.mostrarToolStripMenuItem.Click += new System.EventHandler(this.mostrarToolStripMenuItem_Click);
             // 
             // FrmPpal
             // 
@@ -229,18 +221,16 @@
             this.Controls.Add(this.rtbMostrar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmPpal";
             this.Text = "Correo UTN Vanina.Quezada.2A";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.cmsListas.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -263,7 +253,6 @@
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.MaskedTextBox mtxtTrackingID;
         private System.Windows.Forms.RichTextBox rtbMostrar;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mostrarToolStripMenuItem;
     }
 }

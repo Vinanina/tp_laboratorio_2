@@ -25,10 +25,11 @@ namespace Test_Unitarios2
 
                 Correo correo = new Correo();
                 Paquete p = new Paquete(track, "d");
-               
+                Paquete p2 = new Paquete(track, "d");
 
-                    correo += p;
-                    correo += p;
+
+                     correo += p;
+                    correo += p2;
             }
             catch (Exception e)
             {
