@@ -56,11 +56,11 @@ namespace MiCalculadora
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
 
-            Numero n = new Numero();
+           
             string t = txtResultado.Text;
-
+            Numero n = new Numero(t);
             txtResultado.Text = n.DecimalBinario(t);
-
+           
 
         }
 

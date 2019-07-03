@@ -52,23 +52,42 @@ namespace Entidades
         }
         public string DecimalBinario(double numero){
             //convierte double a int
-           return Convert.ToInt32(numero).ToString();
+            //  return Convert.ToInt32(numero).ToString();
+         /*   string binario = "";
+            int numeroEntero = Math.Abs((int)numero);
+
+
+            while (numeroEntero > 0)
+            {
+                binario = (numeroEntero % 2).ToString() + binario;
+                numeroEntero = numeroEntero / 2;
+            }*/
+
+            return Convert.ToString(Convert.ToInt64(numero), 2);
+           // return binario;
+
 
         }
         public string BinarioDecimal(string binario){
-            //Se trata de parsear el string a un int si se pudo se convierte el int a double
-            int num;
-            if (Int32.TryParse(binario, out num))
-            {
-
-                return Convert.ToDouble(num).ToString("0.00");
-            }
-            else
-            {
-                return "Valor inválido";
-            }
            
-
+             int num=0,i=0,remainder, decimalNumber = 0;
+              if (Int32.TryParse(binario, out num))
+              {
+                  while (num != 0)
+                  {
+                      remainder = num % 10;
+                      num /= 10;
+                      decimalNumber += remainder * (int)Math.Pow(2, i);
+                      ++i;
+                  }
+                
+                 return decimalNumber.ToString();
+                 
+            }
+              else
+              {
+                  return "Valor inválido";
+              }
         }
         #endregion
         #region Sobrecargas
